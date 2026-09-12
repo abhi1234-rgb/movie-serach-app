@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+    <div class="logo">🎬 MovieFinder</div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+    </div>
+</nav>
+
+
+
+    <div class="container">
+
+        <h1>🎬 Movie Search App</h1>
+
+        <p>Search for your favourite movies</p>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="movieInput"
+                placeholder="Enter movie name..."
+            >
+
+            <button onclick="searchMovie()">Search</button>
+        </div>
+
+        <div id="result"></div>
+        <h2 class="popular-title">Popular Movies</h2>
+
+<div id="popularMovies" class="popular-movies"></div>
+
+<section id="about" class="about">
+    <h2>About MovieFinder</h2>
+
+    <p>
+        MovieFinder is a simple movie search application that
+        allows users to search for movies and view their details
+        such as poster, rating, genre, year, actors and plot.
+    </p>
+</section>
+
+    </div>
+
+    <footer>
+    <p>© 2026 MovieFinder | College Mini Project</p>
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
